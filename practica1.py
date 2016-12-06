@@ -1,1 +1,1 @@
-print ("Inicio")
+print ("Inic    io")
