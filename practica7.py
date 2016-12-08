@@ -20,7 +20,7 @@ print(cadena[:4]) #desde el inicio hasta la pos final excluida
 print(cadena[::-1]) #invertir string
 print(cadena[6:1:-2]) #substring invertido
 
-print(cadena[-7:-11:-1])
+print(cadena[-7::-1])
 print(cadena[:-6:-1])
 
 
