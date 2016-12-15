@@ -23,6 +23,12 @@ print(cadena[6:1:-2]) #substring invertido
 print(cadena[-7::-1])
 print(cadena[:-6:-1])
 
+###################################################
+
+print(len(cadena))
+print(min("hola@mundo"))
+print(max("hola@mundo z"))
+
 
 
 
