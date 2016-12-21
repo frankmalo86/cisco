@@ -18,9 +18,10 @@ for indice in range(len(eventos)):
         evento = eventos[indice]
         datos = evento.split("|")
         if len(datos) == 13 and  datos[12].lower().find("ecuador"):
-            if datos[10] is not "":
+            if datos[10]:
                 magnitud = float(datos[10])
                 new_value = my_variable.save_value({'value': magnitud})
                 time.sleep(2)
+
 
 
