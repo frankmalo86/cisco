@@ -59,20 +59,22 @@
 # print(data)
 
 
-dic = {"uno":1, "dos":2}
-for item in dic:
-    print(item)
-    print(dic[item])
-print("########################################")
-for item in dic.keys():
-    print(item)
-print("########################################")
-print(dic.items())
-for k,v in dic.items():
-    print(k, v)
+# dic = {"uno":1, "dos":2}
+# for item in dic:
+#     print(item)
+#     print(dic[item])
+# print("########################################")
+# for item in dic.keys():
+#     print(item)
+# print("########################################")
+# print(dic.items())
+# for k,v in dic.items():
+#     print(k, v)
+#
+# print("########################################")
+#
+# for item in dic.values():
+#     print(item)
 
-print("########################################")
 
-for item in dic.values():
-    print(item)
 
