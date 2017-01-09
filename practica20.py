@@ -3,6 +3,8 @@ import numpy as np
 
 
 response = requests.get('http://earthquake.usgs.gov/fdsnws/event/1/query?format=text&starttime=2016-12-15&endtime=2016-12-22')
+
+
 data = response.text
 
 eventos = data.split("\n")
