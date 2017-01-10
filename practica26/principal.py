@@ -9,8 +9,6 @@ import practica26.earthquake.datos.texto as t
 
 from practica26.earthquake.presentacion.presentacion import presentacion_datos
 
-
-
 t.preparar_url(starttime="2016-04-15", endtime="2016-04-30",
              orderby = "magnitude", limit = "20")
 
